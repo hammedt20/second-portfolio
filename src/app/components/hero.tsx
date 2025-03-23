@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="w-full max-w-[820px] mx-auto flex flex-col gap-6 items-center">
         <Reveal>
           <h1 className="text-[32px] text-center md:text-[64px] font-bold bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text text-transparent">
-            Hi, I'm Taiwo Hammed.
+            Hi, I&apos;m Taiwo Hammed.
           </h1>
         </Reveal>
         <Reveal>
@@ -22,8 +22,8 @@ const Hero = () => {
         </Reveal>
         <Reveal>
           <p className=" md:text-lg text-center">
-            I'm a passionate <strong>Software Engineer</strong> with a track
-            record of building{" "}
+            I&apos;m a passionate <strong>Software Engineer</strong> with a
+            track record of building{" "}
             <strong>high-performance web applications.</strong> From{" "}
             <strong>e-commerce platforms</strong> that drive sales to{" "}
             <strong>HR solutions</strong> streamlining workforce management and{" "}

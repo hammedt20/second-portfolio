@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import { Dispatch, SetStateAction, useState } from "react";
 import Dropdown, { NavReveal } from "./dropDown";
 import { AnimatePresence } from "motion/react";
 import { usePathname } from "next/navigation";

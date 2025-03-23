@@ -16,7 +16,7 @@ const LeisureHero = () => {
       <div className="w-full max-w-[820px] mx-auto flex flex-col gap-6 items-center">
         <Reveal>
           <h1 className="text-[32px] text-center md:text-[64px] font-bold bg-gradient-to-r from-green-500 to-green-900 bg-clip-text text-transparent">
-            Hi, I'm Taiwo Hammed.
+            Hi, I&apos;m Taiwo Hammed.
           </h1>
         </Reveal>
         <Reveal>
@@ -24,10 +24,10 @@ const LeisureHero = () => {
         </Reveal>
         <Reveal>
           <p className=" md:text-lg text-center">
-            When I'm not working on professional projects, I enjoy exploring new
-            technologies and building creative solutions to real-world problems.
-            My personal projects range from web development and automation
-            scripts to experimenting with APIs and frameworks.
+            When I&apos;m not working on professional projects, I enjoy
+            exploring new technologies and building creative solutions to
+            real-world problems. My personal projects range from web development
+            and automation scripts to experimenting with APIs and frameworks.
           </p>
         </Reveal>
         <Reveal>

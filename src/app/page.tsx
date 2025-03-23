@@ -1,6 +1,6 @@
 "use client";
 
-import { SetStateAction, useEffect, useState } from "react";
+import { useState } from "react";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
 import { AnimatePresence, motion } from "motion/react";
