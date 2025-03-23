@@ -31,9 +31,13 @@ const Hero = () => {
           </p>
         </Reveal>
         <Reveal>
-          <button className="flex items-center gap-2 px-4 py-3 font-semibold rounded-lg bg-gradient-to-r from-blue-500 to-blue-900 text-lg text-white cursor-pointer hover:scale-90 transition-all duration-300">
+          <a
+            href={"/Taiwo_Hammed.pdf"}
+            download={"Taiwo_Hammed.pdf"}
+            className="flex items-center gap-2 px-4 py-3 font-semibold rounded-lg bg-gradient-to-r from-blue-500 to-blue-900 text-lg text-white cursor-pointer hover:scale-90 transition-all duration-300"
+          >
             <LuScrollText /> My Resume
-          </button>
+          </a>
         </Reveal>
       </div>
     </main>
