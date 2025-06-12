@@ -1,5 +1,3 @@
-
-
 export const categorizedSkills = [
   {
     category: "Languages",
@@ -36,21 +34,9 @@ export const categorizedSkills = [
 
 export const myExperience = [
   {
-    title: "Frontend Developer",
-    company: "Proxchange Technologies Limited (PREX)",
-    duration: "May 2023 - Present",
-    location: "Lagos, Nigeria",
-    description: [
-      `Spearheaded a team of designers and backend developers to construct a property listing web application that simplified the listing process, enabling a 40% increase in property uploads and attracting 20% more users to list their properties within the first 9 months.`,
-      `Engineered a booking portal for property owners to schedule land registry appointments, streamlining the digitalization of land documents and improving document security by 30%.`,
-      ` Designed and Integrated a dashboard feature providing property owners with insightful data on their properties, resulting in a platform retention rate of over 70% for registered users.`,
-      `Built a land registry portal for the state government to manage citizen-owned land records, track earnings, and automate revenue collection. The system increased payment compliance by 90%, reduced manual errors by 25%, and sent timely alerts to citizens and the government for upcoming dues, improving overall efficiency.`,
-    ],
-  },
-  {
-    title: "Frontend Developer",
+    title: "Software Engineer",
     company: "WorkflowsHR",
-    duration: "June 2024 - May 2025",
+    duration: "June 2024 - Present",
     location: "Lagos, Nigeria",
     description: [
       `Created an HR analytics dashboard to visualize workforce data
@@ -70,10 +56,10 @@ payout accuracy by 42%.`,
     ],
   },
   {
-    title: "Frontend Developer",
+    title: "Software Engineer",
     company: "MinieMoney",
     duration: "November 2024 - January 2025",
-    location: "Lagos, Nigeria",
+    location: "London, United Kingdom",
     description: [
       `Revamped a landing page for Flex Fees, a subsidiary product, to drive
 traffic to the app, increasing user sign-ups by 35% and boosting
@@ -87,18 +73,27 @@ boosting user engagement by 30%.`,
     ],
   },
   {
-    title: "Frontend Developer",
+    title: "Software Engineer",
+    company: "Proxchange Technologies Limited (PREX)",
+    duration: "Jul 2023 - Aug 2024",
+    location: "Lagos, Nigeria",
+    description: [
+      `Spearheaded a team of designers and backend developers to construct a property listing web application that simplified the listing process, enabling a 40% increase in property uploads and attracting 20% more users to list their properties within the first 9 months.`,
+      `Engineered a booking portal for property owners to schedule land registry appointments, streamlining the digitalization of land documents and improving document security by 30%.`,
+      ` Designed and Integrated a dashboard feature providing property owners with insightful data on their properties, resulting in a platform retention rate of over 70% for registered users.`,
+      `Built a land registry portal for the state government to manage citizen-owned land records, track earnings, and automate revenue collection. The system increased payment compliance by 90%, reduced manual errors by 25%, and sent timely alerts to citizens and the government for upcoming dues, improving overall efficiency.`,
+    ],
+  },
+  {
+    title: "Software Engineer",
     company: "Stallet",
     duration: "August 2022 - April 2023",
     location: "Lagos, Nigeria",
     description: [
-      `Designed and developed a waitlist web application from
-scratch, providing a streamlined and efficient process for
-managing customer queues.`,
-      `Implemented a database system to store and manage
-customer information, ensuring data integrity and security.`,
-      ` Implemented CI/CD into the web app, to make
-builds, testing, and deployment easier and faster.`,
+      `Spearheaded the construction of the waitlist page before the website's completion, resulting in the collection of over 500 email sign-ups. `,
+      `Optimized the application's performance, including minimizing load times, making the web app responsive, and implementing efficient data retrieval and storage methods.`,
+      ` Implemented a database system to store and manage customer information, ensuring data integrity and security, using API services from Firebase.`,
+      ` Successfully deployed the waitlist web app to a unique domain name using Netlify, ensuring its availability and scalability.`,
     ],
   },
   {

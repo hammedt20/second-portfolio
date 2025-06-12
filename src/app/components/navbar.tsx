@@ -47,7 +47,7 @@ const Navbar = ({
                 }}
                 onClick={() => setWork && setWork("Proffessional")}
               >
-                Proffessional
+                Professional
               </div>
               <div
                 className="px-3 py-2 rounded-full cursor-pointer font-bold"
@@ -75,7 +75,7 @@ const Navbar = ({
                 }}
                 onClick={() => setWork && setWork("Proffessional")}
               >
-                Proffessional
+                Professional
               </div>
               <div
                 className="px-3 py-2 rounded-full cursor-pointer font-bold"

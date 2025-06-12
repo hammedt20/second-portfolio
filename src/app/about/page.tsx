@@ -11,6 +11,7 @@ import Painting from "../../../public/painting.jpeg";
 import Swimming from "../../../public/swim.jpeg";
 import { motion, useAnimation, useInView } from "motion/react";
 import { categorizedSkills, myExperience } from "./data";
+import { LuMail, LuPhone, LuScrollText } from "react-icons/lu";
 
 const About = () => {
   const ref = useRef(null);
@@ -30,13 +31,7 @@ const About = () => {
       <Navbar />
       <div className="w-screen h-full min-h-[calc(100vh-88px)] relative py-[120px]">
         {/* <img src={JunglePic.src} alt="" className="w-[200px]" /> */}
-        <div className="absolute inset-0 z-0 overflow-hidden">
-          <div className="shape shape-1"></div>
-          <div className="shape shape-2"></div>
-          <div className="shape shape-3"></div>
-          <div className="shape shape-4"></div>
-          <div className="shape shape-5"></div>
-        </div>
+
         <div className="w-full max-w-[640px] flex flex-col gap-8 mx-auto items-start px-5">
           {/* <h3 className="font-bold bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text text-transparent text-[36px]">
             Hi again, I'm Hammed
@@ -57,9 +52,9 @@ const About = () => {
                 I am a proficient software developer with a strong foundation in
                 building web solutions. As an expert in JavaScript and its
                 modern frameworks, I specialize in crafting high-quality,
-                scalable, and aesthetically pleasing applications. Whether it&apos;s
-                frontend interfaces or backend logic, I bring ideas to life
-                through clean and efficient code.
+                scalable, and aesthetically pleasing applications. Whether
+                it&apos;s frontend interfaces or backend logic, I bring ideas to
+                life through clean and efficient code.
               </p>
               <p>
                 My journey into tech began in secondary school, where I was
@@ -159,7 +154,6 @@ const About = () => {
                 the world uses — something impactful, beautiful, and meaningful.
                 I&apos;m just getting started.
               </p>
-              
             </motion.div>
           </div>
         </div>
@@ -224,6 +218,38 @@ const About = () => {
               </div>
             ))}
           </div>
+        </div>
+      </div>
+      <div className="flex flex-col items-center gap-4 w-full max-w-[650px] mx-auto my-20">
+        <div className="flex flex-col gap-2 items-center">
+          <h2 className="text-3xl font-bold text-gray-900">Get in Touch</h2>
+          <p className="text-gray-700 text-center">
+            I&apos;m always open to discussing new projects, creative ideas, or
+            opportunities to be part of your vision. Whether you have a question
+            or just want to say hi — my inbox is open!
+          </p>
+        </div>
+        <div className="flex items-center gap-4 justify-between mt-8">
+          <a
+            href={"/Taiwo_Hammed_CV.pdf"}
+            download={"Taiwo_Hammed.pdf"}
+            className="flex items-center gap-2 font-semibold cursor-pointer px-4 py-2 rounded-full border border-gray-700 text-gray-700 hover:scale-90 transition-all duration-300"
+          >
+            <LuScrollText /> My Resume
+          </a>
+          <a
+            href={"mailto:hammedt20@gmail.com"}
+            className="flex items-center gap-2 font-semibold cursor-pointer px-4 py-2 rounded-full border border-gray-700 text-gray-700 hover:scale-90 transition-all duration-300"
+          >
+            <LuMail /> hammedt20@gmail.com
+          </a>
+          <a
+            href={"tel:+2348027445284"}
+            download={"Taiwo_Hammed.pdf"}
+            className="flex items-center gap-2 font-semibold cursor-pointer px-4 py-2 rounded-full border border-gray-700 text-gray-700 hover:scale-90 transition-all duration-300"
+          >
+            <LuPhone /> +234-802-744-5284
+          </a>
         </div>
       </div>
       <Footer />
