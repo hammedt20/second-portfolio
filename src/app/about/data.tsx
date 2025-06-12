@@ -115,7 +115,7 @@ development concepts and best practices.`,
     ],
   },
   {
-    title: "Software Developer",
+    title: "Frontend Developer",
     company: "HNG Internship (HNGi7)",
     duration: "June 2020 - August 2020",
     location: "Remote(Nigeria)",
