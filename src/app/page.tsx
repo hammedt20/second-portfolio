@@ -51,9 +51,9 @@ export default function Home() {
             or just want to say hi — my inbox is open!
           </p>
         </div>
-        <div className="flex items-center gap-4 justify-between mt-8">
+        <div className="flex items-center gap-4 md:justify-between mt-8 md:flex-nowrap flex-wrap justify-center">
           <a
-            href={"/Taiwo_Hammed_CV.pdf"}
+            href={"/Taiwo_Hammed.pdf"}
             download={"Taiwo_Hammed.pdf"}
             className="flex items-center gap-2 font-semibold cursor-pointer px-4 py-2 rounded-full border border-gray-700 text-gray-700 hover:scale-90 transition-all duration-300"
           >

@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       <div className="w-full max-w-[820px] mx-auto flex flex-col gap-6 items-center">
         <Reveal>
-          <h1 className="tracking-tighter leading-[60px] text-[32px] text-center md:text-[64px] font-bold bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text text-transparent">
+          <h1 className="tracking-tighter md:leading-[60px] leading-8 text-[32px] text-center md:text-[64px] font-bold bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text text-transparent">
             I design and build intuitive, user-focused products that drive
             results.
           </h1>
@@ -32,9 +32,9 @@ const Hero = () => {
           </p>
         </Reveal>
         <Reveal>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 md:flex-nowrap flex-wrap justify-center">
             <a
-              href={"/Taiwo_Hammed_CV.pdf"}
+              href={"/Taiwo_Hammed.pdf"}
               download={"Taiwo_Hammed.pdf"}
               className="flex items-center gap-2 px-4 py-3 font-semibold rounded-lg bg-gradient-to-r from-blue-500 to-blue-900 text-lg text-white cursor-pointer hover:scale-90 transition-all duration-300"
             >
